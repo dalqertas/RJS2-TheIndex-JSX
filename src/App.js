@@ -3,6 +3,7 @@ import authors from './data';
 
 function App() {
   return (
+  <div id="app" class="container-fluid">
   <div className="row">
       <div className="col-2">
         <div id="sidebar">
@@ -39,6 +40,7 @@ function App() {
           </div>
         </div>
       </div>
+  </div>
   </div>);
   
 }
